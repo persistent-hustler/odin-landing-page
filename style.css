@@ -42,11 +42,14 @@ a {
     display: flex;
     gap: 10px;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
     margin: 120px 0;
 }
 
 .left {
-    flex-basis: 460px;
+    flex-basis: 340px;
+    flex-grow: 1;
+    max-width: 460px;
 }
 
 .left .main {
@@ -67,7 +70,9 @@ button {
 .image {
     background-color: rgb(131, 129, 129);
     color: whitesmoke;
-    flex-basis: 420px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 420px;
     aspect-ratio: 2;
     align-self: center;
     display: flex;
@@ -98,6 +103,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .unit {
