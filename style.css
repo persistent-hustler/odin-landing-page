@@ -9,7 +9,7 @@ body {
 
 .header {
     background-color: #1f2937;
-    padding: 10px 160px;
+    padding: 20px 270px;
 }
 
 .topnav {
@@ -24,9 +24,13 @@ ul {
   margin: 0;
 }
 
-ul, .hero .secondary {
+a, .hero .secondary {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header .logo {
@@ -38,11 +42,11 @@ ul, .hero .secondary {
     display: flex;
     gap: 10px;
     justify-content: space-between;
-    margin: 80px 0;
+    margin: 120px 0;
 }
 
 .left {
-    flex-basis: 500px;
+    flex-basis: 460px;
 }
 
 .left .main {
@@ -63,9 +67,48 @@ button {
 .image {
     background-color: rgb(131, 129, 129);
     color: whitesmoke;
-    flex: 0 1 500px;
-    height: 250px;
+    flex-basis: 420px;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* information section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 200px;
+    padding-bottom: 120px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    align-self: center;
+    padding-block: 60px;
+}
+
+.illustrations {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.unit {
+    width: 160px;
+}
+
+.img {
+    border: 5px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
 }
