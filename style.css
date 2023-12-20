@@ -78,7 +78,7 @@ button {
 /* information section */
 
 .info {
-    padding-bottom: 100px;
+    padding: 0 10% 100px;
 }
 
 .head {
@@ -137,11 +137,12 @@ button {
 .banner {
     margin: 100px 20%;
     display: flex;
+    gap: 12px;
     justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
     color: white;
-    padding: 30px 120px;
+    padding: 30px 7%;
     border-radius: 8px;
 }
 
