@@ -79,7 +79,6 @@ button {
 .info {
     display: flex;
     flex-direction: column;
-    padding-inline: 200px;
     padding-bottom: 120px;
 }
 
@@ -93,7 +92,7 @@ button {
 
 .illustrations {
     display: flex;
-    gap: 80px;
+    gap: 60px;
     justify-content: center;
 }
 
@@ -111,4 +110,27 @@ button {
 .text {
     text-align: center;
     font-size: 18px;
+    font-weight: lighter;
+}
+
+/* Quote Section */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 320px 120px;
+}
+
+.quotation {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.author {
+    font-weight: bold;
+    font-size: large;
+    text-align: end;
 }
