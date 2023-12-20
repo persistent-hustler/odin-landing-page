@@ -9,7 +9,7 @@ body {
 
 .header {
     background-color: #1f2937;
-    padding: 20px 270px;
+    padding: 20px 16%;
 }
 
 .topnav {
@@ -68,7 +68,8 @@ button {
     background-color: rgb(131, 129, 129);
     color: whitesmoke;
     flex-basis: 420px;
-    height: 220px;
+    aspect-ratio: 2;
+    align-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,47 +78,43 @@ button {
 /* information section */
 
 .info {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 }
 
-.info-header {
+.head {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    align-self: center;
-    padding-block: 60px;
+    text-align: center;
+}
+
+.img {
+    aspect-ratio: 1;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
 }
 
 .illustrations {
     display: flex;
-    gap: 60px;
     justify-content: center;
+    gap: 40px;
 }
 
 .unit {
-    width: 160px;
+    flex-basis: 158px;
+    display: flex;
+    flex-direction: column;
 }
 
-.img {
-    border: 5px solid #3882f6;
-    width: 150px;
-    height: 150px;
-    border-radius: 8px;
-}
-
-.info .text {
+.subtext {
     text-align: center;
-    font-size: 18px;
-    font-weight: lighter;
 }
 
 /* Quote Section */
 
 .quote {
     background-color: #e5e7eb;
-    padding: 100px 320px 120px;
+    padding: 100px 25% 120px;
 }
 
 .quotation {
@@ -138,7 +135,7 @@ button {
 /* Banner Section */
 
 .banner {
-    margin: 100px 270px;
+    margin: 100px 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
