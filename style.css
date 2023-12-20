@@ -107,7 +107,7 @@ button {
     border-radius: 8px;
 }
 
-.text {
+.info .text {
     text-align: center;
     font-size: 18px;
     font-weight: lighter;
@@ -133,4 +133,41 @@ button {
     font-weight: bold;
     font-size: large;
     text-align: end;
+}
+
+/* Banner Section */
+
+.banner {
+    margin: 100px 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    padding: 30px 120px;
+    border-radius: 8px;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.banner .sign-up {
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+.banner button {
+    border: 2px solid white;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding-block: 40px;
+    text-align: center;
 }
